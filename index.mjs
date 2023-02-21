@@ -11,3 +11,5 @@ let name = "Name Nameson"
 greet(name, function(greeting) {
     console.log(greeting)
 })
+
+greet("Example Name", (greeting) => console.log(greeting))
