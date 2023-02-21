@@ -1,16 +1,9 @@
 name: Check code
+id: check-code
 on:
   workflow_dispatch:
   push:
-    branches:
-      - main
-    paths:
-      - '**.{j,t}s'
   pull_request:
-    branches:
-      - main
-    paths:
-      - '**.{j,t}s'
 
 jobs:
   setup:
